@@ -185,14 +185,14 @@ Swal.fire({
         )
         .staggerFromTo(
             ".baloons img",
-            10.0, {
+            15.0, {
                 opacity: 0.9,
                 y: 1400,
             }, {
                 opacity: 1,
                 y: -1000,
             },
-            1.0
+            2.0
         )
         .from(
             ".profile-picture",
